@@ -1,3 +1,4 @@
+import About from '@/components/About/page'
 import HomeScreen from '@/components/HomeScreen/page'
 import Navbar from '@/components/Navbar/page'
 
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <HomeScreen />
+      <About />
     </>
   )
 }
