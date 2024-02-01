@@ -1,5 +1,3 @@
-import Email from '@/components/Email/page'
-
 export default function HomeScreen() {
   return (
     <>
