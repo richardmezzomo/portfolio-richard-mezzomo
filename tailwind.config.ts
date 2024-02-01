@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transformOrigin: {
+        '0': '0%',
+        '100': '100%',
+      },
       fontFamily: {
         sans: ['var(--font-montserrat)'],
         mono: ['var(--font-source-code-pro)'],
