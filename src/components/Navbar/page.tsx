@@ -4,7 +4,7 @@ import logo from '@/assets/logo.svg'
 import open from '@/assets/menu/open.svg'
 import close from '@/assets/menu/close.svg'
 import { useState } from 'react'
-import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from 'react-icons/fa'
+import SocialMedias from '../SocialMedias/page'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -90,28 +90,7 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-          <div>
-            <ul className="mt-12 flex items-center justify-center gap-6">
-              <li>
-                <a href="https://github.com/richardmezzomo" target="_blank">
-                  <FaGithubSquare size={30} color="#222222" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <FaWhatsappSquare size={30} color="#222222" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://linkedin.com/in/richardbmezzomo/"
-                  target="_blank"
-                >
-                  <FaLinkedin size={30} color="#222222" />
-                </a>
-              </li>
-            </ul>
-          </div>
+          <SocialMedias spacing="mt-12" />
         </div>
       )}
     </>
