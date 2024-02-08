@@ -1,4 +1,5 @@
 import Cards from '../Cards/page'
+import gitHubBlog from '@/assets/images/github-blog.png'
 
 export default function Portfolio() {
   return (
@@ -11,10 +12,25 @@ export default function Portfolio() {
           alguns dos projetos desenvolvidos
         </p>
       </header>
-      <main className="pt-10 lg:grid lg:grid-cols-2 lg:gap-10">
-        <Cards />
-        <Cards />
-        <Cards />
+      <main className="grid grid-cols-1 justify-items-center gap-5 pt-10 lg:grid-cols-2 lg:gap-10">
+        <Cards
+          imageSrc={gitHubBlog}
+          title="GitHub Blog"
+          paragraph="Blog informativo"
+          paragraphTwo="Site"
+          technologies={['React', 'TypeScript', 'Vite']}
+          githubLink="https://github.com/richardmezzomo/github-blog"
+          link=""
+        />
+        <Cards
+          imageSrc={gitHubBlog}
+          title="GitHub Blog"
+          paragraph="Blog informativo"
+          paragraphTwo="Site"
+          technologies={['React', 'TypeScript', 'Vite']}
+          githubLink="https://github.com/richardmezzomo/github-blog"
+          link=""
+        />
       </main>
     </section>
   )
