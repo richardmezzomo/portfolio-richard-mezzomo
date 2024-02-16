@@ -8,9 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      transformOrigin: {
+        '0': '0%',
+        '100': '100%',
+      },
       fontFamily: {
         sans: ['var(--font-montserrat)'],
         mono: ['var(--font-source-code-pro)'],
+      },
+      colors: {
+        white: '#F8F4F0',
+        black: '#222222',
+        gray: 'rgba(34, 34, 34, 0.40)',
       },
     },
   },
