@@ -13,17 +13,16 @@ export default function Portfolio() {
         </p>
       </header>
       <main className="grid grid-cols-1 justify-items-center gap-5 pt-10 lg:grid-cols-2 lg:gap-10">
-        {/* <Cards
+        <Cards
           imageSrc={gitHubBlog}
           title="GitHub Blog"
           paragraph="Blog informativo"
           paragraphTwo="Site"
           technologies={['React', 'TypeScript', 'Vite']}
           githubLink="https://github.com/richardmezzomo/github-blog"
-          link=""
-        /> */}
+          link="https://github-blog-krsrq52si-richardmezzomo.vercel.app/"
+        />
       </main>
-      <h3 className="self-start font-sans text-xl">Aguarde... 🏗️</h3>
     </section>
   )
 }
