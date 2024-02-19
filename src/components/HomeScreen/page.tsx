@@ -22,7 +22,8 @@ export default function HomeScreen() {
 
           <div className="flex w-full items-center justify-center pt-14 lg:flex lg:justify-start lg:pt-16">
             <a
-              href=""
+              href="https://wa.me/+5548984864299"
+              target="_blank"
               className="border border-black px-3 py-2 font-mono text-sm lg:px-10 lg:py-3 lg:text-lg"
             >
               ENTRE EM CONTATO
